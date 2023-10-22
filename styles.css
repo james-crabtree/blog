@@ -1,0 +1,36 @@
+/* CODE FOR THE HEADER */
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 5px solid gray;
+}
+
+.social-icons a,
+.nav-links p {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 20px;
+  color: black;
+  padding-left: 40px;
+}
+
+.social-icons img {
+  width: 27px;
+  height: 27px;
+  padding-top: 5px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}

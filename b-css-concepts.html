@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+
+    <div id="header">
+      <!-- Social media icons on the left -->
+      <div class="social-icons">
+        <a href="https://twitter.com/your-twitter-profile" target="_blank"><img src="images/social-icons/twitter.png" alt="Twitter"/></a>
+        <a href="https://www.instagram.com/james.crabtree17/" target="_blank"><img src="images/social-icons/instagram.png" alt="Instagram"/></a>
+        <a href="https://github.com/james-crabtree" target="_blank"><img src="images/social-icons/github.png" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><img src="images/social-icons/linkedin.png" alt="LinkedIn"/></a>
+        <a href="" target="_blank"><img src="images/social-icons/home.png" alt="My website"/></a>
+      </div>
+      <div class="nav-links">
+        <a href="#" id="dark-mode-link"><img id="dark-mode-image" src="images/other/brightness.png" alt="Toggle dark/light mode"/></a>
+      </div>
+    </div>
+
+
+
+    <div class="main-div">
+      <div class="blog-post">
+        <h2 class="blog-text">TECHNICAL BLOG WEEK 2: HTML & CSS concepts.</h2>
+
+        <p class="blog-text">
+          <h3 class="blog-text">What are the best practices associated with using classes vs. ids?</h3>
+          <p class="blog-text">
+            From an outsiders perspective, classes and id’s may look the same, they essentially both do the same thing - 
+            they’re both used to edit elements with CSS, but taking a deeper closer look into the two, you’ll see that their uses are 
+            different to each other. To put it into simple terms, you should use a class when you plan to use it on multiple elements (like 
+            on a h1, p, h3, div) while you should use an id if you are only trying to edit a specific single element. 
+          </p>
+      
+          <p class="blog-text">
+            To create a class, you decide a name for it with a . in front of it in your CSS file. In the example below, the classes name is 
+            “red-text” and any text based elements that have this class added to it will be turned red. I’ll be able to add this class to as 
+            many elements as I want.
+          </p>
+      
+          <p class="blog-text">IMAGE GOES HERE</p>
+      
+          <p class="blog-text">
+            To add a class to an element you, not surprising, use the “class” tag. Again, you can add a class to as many different elements 
+            as you want, like I have below. This will make the h1, h3, and p elements (only the ones with the class ‘red-text’) have red text.
+          </p>
+      
+          <p class="blog-text">IMAGE GOES HERE</p>
+      
+          <p class="blog-text">
+            To create an id, you decide a name for it with a # in front of it. In the example below, the id’s name is #main-title and the 
+            element that has this id will be turned blue and be underlined. I’ll add this id to a single element, in this case based on the 
+            name, likely adding it to the main title element of the page.
+          </p>
+      
+          <p class="blog-text">IMAGE GOES HERE</p>
+      
+          <p class="blog-text">
+            To add an id to the element you use the “id” tag. Again, you should only add an id to a single element. Meaning if you want to 
+            add the attributes of a certain id to more than 1 element, you’ll have to make a whole new id and copy and paste the attributes 
+            into it. If you are wanting to add an id to multiple elements, then you should use a class instead. 
+        </p>
+      </div>
+    </div>
+    
+    <script src="dark-mode.js"></script>
+  </body>
+</html>
+<footer>
+  <p id="footer-text">Website designed and developed by James Crabtree - 2023 ©</p>
+</footer>

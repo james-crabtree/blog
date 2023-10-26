@@ -1,4 +1,3 @@
-
 // This code insures that the Javascript doesn't activate until all the HTML and the DOM is loaded up fully.
 document.addEventListener('DOMContentLoaded', () => {
   // This selects an HTML stylesheet element and stores it in a variable called 'stylesheet'
@@ -24,17 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
       darkModeImage.src = 'images/other/brightness.png';
     }
   });
+});
 
   // Load the header content from 'header.html' into the 'header' element.
-  const headerElement = document.getElementById('header');
-  fetch('header.html')
-    .then((response) => response.text())
-    .then((data) => {
-      headerElement.innerHTML = data;
-    })
-    .catch((error) => {
-      console.error('Error loading header:', error);
-    });
-});
+//   const headerElement = document.getElementById('header');
+//   fetch('header.html')
+//     .then((response) => response.text())
+//     .then((data) => {
+//       headerElement.innerHTML = data;
+//     })
+//     .catch((error) => {
+//       console.error('Error loading header:', error);
+//     });
+// });
 
 

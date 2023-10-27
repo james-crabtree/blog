@@ -25,15 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-  // Load the header content from 'header.html' into the 'header' element.
-  const headerElement = document.getElementById('header');
-  fetch('header.html')
-    .then((response) => response.text())
-    .then((data) => {
-      headerElement.innerHTML = data;
-    })
-    .catch((error) => {
-      console.error('Error loading header:', error);
-    });
+  // // Load the header content from 'header.html' into the 'header' element.
+  // const headerElement = document.getElementById('header');
+  // fetch('header.html')
+  //   .then((response) => response.text())
+  //   .then((data) => {
+  //     headerElement.innerHTML = data;
+  //   })
+  //   .catch((error) => {
+  //     console.error('Error loading header:', error);
+  //   });
 
 

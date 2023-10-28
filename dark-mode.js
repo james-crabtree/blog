@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const darkModeLink = document.getElementById('dark-mode-link');
 
   // This adds a click listener to the dark mode button, so when it gets clicked it will activate the code below it.
+  darkModeImage.addEventListener('click' , function() {
+    console.log('THIS IS CLICKED')
+  });
   darkModeLink.addEventListener('click', () => {
     // Checks what stylesheet is currently active.
     // If it is equal to 'styles.css' then that means the blog is in light mode currently.
@@ -15,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // If the blog is in light mode, this code updates the stylesheet href to the dark mode stylesheet
       // It turns the button into the dark mode button.
       stylesheet.setAttribute('href', 'dark.css');
+      console.log(stylesheet.getAttribute('href'))
       darkModeImage.src = 'images/other/moon-stars.png';
     } else {
       // If the blog is in dark mode, this code updates the stylesheet href to the light mode stylesheet
